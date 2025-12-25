@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/B_Calculator"
+        android:layout_width="157dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="224dp"
+        android:background="@color/black"
+        android:text="Калькулятор"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/B_Music"
+        android:layout_width="123dp"
+        android:layout_height="92dp"
+        android:background="@color/black"
+        android:text="Музыка"
+        app:layout_constraintBottom_toBottomOf="@+id/B_Calculator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toEndOf="@+id/B_Calculator"
+        app:layout_constraintTop_toTopOf="@+id/B_Calculator"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/Location"
+        android:layout_width="275dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="132dp"
+        android:background="@color/black"
+        android:text="GPS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
