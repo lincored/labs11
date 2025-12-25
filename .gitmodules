@@ -1,3 +1,6 @@
 [submodule "lab11_back"]
 	path = lab11_back
 	url = https://github.com/lincored/lab11_back
+[submodule "backend"]
+	path = backend
+	url = https://github.com/lincored/lab11_back.git
